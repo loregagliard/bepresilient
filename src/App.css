@@ -60,3 +60,7 @@
 .ui.message {
   border-radius: 0!important;
 }
+
+.ui.modal {
+  border-radius: 0!important;
+}

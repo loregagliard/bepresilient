@@ -29,7 +29,16 @@ export default class Community extends Component {
             modalImage: '',
             modalKey: ''
         }
+        this.handleClikOnItem = this.handleClikOnItem.bind(this);
+        this.closeModal = this.closeModal.bind(this);
     }
+
+    handleClikOnItem = (e) => {
+        this.setState({modalImage: e});
+        this.setState({modalOpen:true});
+    }
+
+    closeModal = () => this.setState({ modalOpen: false })
 
 
     renderMessages() {
@@ -72,34 +81,35 @@ export default class Community extends Component {
                             <Header textAlign={'center'}>ROUND TABLES</Header>
                             <Divider />
                             <Item.Group divided>
-                                <Item>
-                                    <Item.Image size='small' src='/1-withbg-preview.png' />
+                                <Item onClick={()=>{this.handleClikOnItem('How to use PPE')}}>
+                                    <Item.Image size='small' src='/LAVAGNE_TAVOLI-removebg-preview.png' as={'a'} />
                                     <Item.Content verticalAlign='middle'>
-                                        <Item.Header as='a'>How to use IPD</Item.Header>
+                                        <Item.Header as='a'>How to use PPE</Item.Header>
                                         <Item.Meta>
                                             <span className='cinema'>30th April, 2020</span>
                                         </Item.Meta>
-                                        Let us discuss on how to make tutorial and spread this knowledge
+                                        How do we make tutorial and help this knowledge to spread around
                                     </Item.Content>
                                 </Item>
-                                <Item>
-                                    <Item.Image size='small' src='/2-removebg-preview.png' />
+                                <Item onClick={()=>{this.handleClikOnItem('School Education At The Time of Covid-19')}}>
+                                    <Item.Image size='small' src='/2-removebg-preview.png' as={'a'} />
                                     <Item.Content verticalAlign='middle'>
-                                        <Item.Header as='a'>How to use IPD</Item.Header>
+                                        <Item.Header as='a'>School Education At The Time of Covid-19</Item.Header>
                                         <Item.Meta>
                                             <span className='cinema'>30th April, 2020</span>
                                         </Item.Meta>
-                                        Let us discuss on how to make tutorial and spread this knowledge
+                                        Let us discuss about new educational method and tools. Webinar and on-line lessons!
                                     </Item.Content>
                                 </Item>
-                                <Item>
-                                    <Item.Image size='small' src='/3-removebg-preview.png' />
+                                <Item onClick={()=>{this.handleClikOnItem('Isolation At The Time Of Covid-19')}}>
+                                    <Item.Image size='small' src='/3-removebg-preview.png' as={'a'} />
                                     <Item.Content verticalAlign='middle'>
-                                        <Item.Header as='a'>How to use IPD</Item.Header>
+                                        <Item.Header as='a'>Isolation At The Time Of Covid-19</Item.Header>
                                         <Item.Meta>
-                                            <span className='cinema'>30th April, 2020</span>
+                                            <span className='cinema'>2nd May, 2020</span>
                                         </Item.Meta>
-                                        Let us discuss on how to make tutorial and spread this knowledge
+                                        Are we prepared for what is coming next? 
+                                        The new laws imposed by Governments all around the world have had a great impact on our social life.
                                     </Item.Content>
                                 </Item>
                             </Item.Group>
@@ -121,9 +131,26 @@ export default class Community extends Component {
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-            <Modal>
-                
-            </Modal>
+            <Modal dimmer={'blurring'} open={this.state.modalOpen} onClose={this.closeModal}>
+                            <Modal.Header>{this.state.modalImage}</Modal.Header>
+          <Modal.Content image>
+            <Image
+              wrapped
+              size='huge'
+              src={'/Team.png'}
+            />
+          </Modal.Content>
+          <Modal.Actions>
+            <Button
+              primary
+              inverted
+              icon='checkmark'
+              labelPosition='right'
+              content="Exit Table"
+              onClick={this.closeModal}
+            />
+          </Modal.Actions>
+        </Modal>
             </Container>
         )
     }
