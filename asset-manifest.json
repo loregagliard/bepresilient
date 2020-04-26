@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/loregagliard.github.io/static/css/main.764fe9a5.chunk.css",
+    "main.js": "/loregagliard.github.io/static/js/main.432ad025.chunk.js",
+    "main.js.map": "/loregagliard.github.io/static/js/main.432ad025.chunk.js.map",
+    "runtime-main.js": "/loregagliard.github.io/static/js/runtime-main.24094fd0.js",
+    "runtime-main.js.map": "/loregagliard.github.io/static/js/runtime-main.24094fd0.js.map",
+    "static/css/2.091fcc42.chunk.css": "/loregagliard.github.io/static/css/2.091fcc42.chunk.css",
+    "static/js/2.14f7e846.chunk.js": "/loregagliard.github.io/static/js/2.14f7e846.chunk.js",
+    "static/js/2.14f7e846.chunk.js.map": "/loregagliard.github.io/static/js/2.14f7e846.chunk.js.map",
+    "index.html": "/loregagliard.github.io/index.html",
+    "precache-manifest.7b5d2668a6b4cf96eba89efae29a1225.js": "/loregagliard.github.io/precache-manifest.7b5d2668a6b4cf96eba89efae29a1225.js",
+    "service-worker.js": "/loregagliard.github.io/service-worker.js",
+    "static/css/2.091fcc42.chunk.css.map": "/loregagliard.github.io/static/css/2.091fcc42.chunk.css.map",
+    "static/css/main.764fe9a5.chunk.css.map": "/loregagliard.github.io/static/css/main.764fe9a5.chunk.css.map",
+    "static/js/2.14f7e846.chunk.js.LICENSE.txt": "/loregagliard.github.io/static/js/2.14f7e846.chunk.js.LICENSE.txt",
+    "static/media/semantic.css": "/loregagliard.github.io/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/index.css": "/loregagliard.github.io/static/media/sfondo-pattern.ece0e62f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24094fd0.js",
+    "static/css/2.091fcc42.chunk.css",
+    "static/js/2.14f7e846.chunk.js",
+    "static/css/main.764fe9a5.chunk.css",
+    "static/js/main.432ad025.chunk.js"
+  ]
+}
