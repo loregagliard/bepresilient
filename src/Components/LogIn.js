@@ -16,7 +16,7 @@ export default class LogIn extends Component {
 
     render() {
         return (
-            <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
+            <Grid textAlign='center' verticalAlign='middle'>
                 <Grid.Column style={{ maxWidth: 450 }}>
                     <Image src='/logo bianco.png' size={'small'}  centered />
                     <Header as='h2' style={{'color': '#e71c64'}} textAlign='center'>
