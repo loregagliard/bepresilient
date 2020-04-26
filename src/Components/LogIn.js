@@ -19,7 +19,7 @@ export default class LogIn extends Component {
         return (
             <Grid textAlign='center' verticalAlign='middle'>
                 <Grid.Column style={{ maxWidth: 450 }}>
-                    <Image src='/logo bianco.png' size={'small'}  centered />
+                    <Image src='/bepresilient-logo.png' size={'small'} size={'large'}  centered />
                     <Header as='h2' style={{'color': '#e71c64'}} textAlign='center'>
                         Log-in to your account
                     </Header>
