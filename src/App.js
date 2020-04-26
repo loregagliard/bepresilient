@@ -31,10 +31,14 @@ class App extends Component {
           </Grid.Row>
           <Grid.Row>
             <Grid.Column>
-              {user.role===""}
-              <Route exact={true} path={"home"} component={DumbComponent} />
-              <Route exact={true} path={"volunteers"} component={DumbComponent} />
-              <Route exact={true} path={""} component={DumbComponent} />
+              <Route exact={true} path={"/"} component={DumbComponent} />
+              {user.role==="admin" ? 
+                <div>
+                    <Route exact={true} path={"home"} component={DumbComponent} />
+                    <Route exact={true} path={"volunteers"} component={DumbComponent} />
+                    <Route exact={true} path={""} component={DumbComponent} />
+                </div>
+               : null}
             </Grid.Column>
           </Grid.Row>
         </Grid>
