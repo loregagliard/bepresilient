@@ -1,4 +1,4 @@
-![](RackMultipart20200426-4-n54ibk_html_31ed0257b45a8753.png)
+![](https://drive.google.com/drive/folders/1zzxhMKIraSCAwwSdj5IIda00jId8M3sy)
 
 **INSPIRATION**
 

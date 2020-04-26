@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import HeaderBePresilient from './Components/HeaderBePresilient';
 import MenuBePresilient from './Components/MenuBePresilient';
 import DumbComponent from './Components/DumbComponent';
+import GiveOrNeed from './Components/GiveOrNeed';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css'
@@ -31,12 +32,11 @@ class App extends Component {
           </Grid.Row>
           <Grid.Row>
             <Grid.Column>
-              <Route exact={true} path={"/"} component={DumbComponent} />
+              <Route exact={true} path={"/"} component={GiveOrNeed} />
               {user.role==="admin" ? 
                 <div>
-                    <Route exact={true} path={"home"} component={DumbComponent} />
-                    <Route exact={true} path={"volunteers"} component={DumbComponent} />
-                    <Route exact={true} path={""} component={DumbComponent} />
+                    <Route exact={true} path={"/home"} component={DumbComponent} />
+                    <Route exact={true} path={"/volunteers"} component={DumbComponent} />
                 </div>
                : null}
             </Grid.Column>

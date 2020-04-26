@@ -8,14 +8,14 @@ export default class DumbComponent extends Component {
                 <Grid.Row columns={1}>
                     <Grid.Column>
                         <Card.Group centered>
-                            <Image src='./icona-sos.png' />
+                            <Image src='./icona-sos.png' size={'tiny'} />
                             <Card key={'givehelp'} link>
                                 <Card.Content>
                                     Give Help
                                 </Card.Content>
                             </Card>
                             <Card key={'needhelp'} link>
-                                <Image src='./icona-megafono.png' />
+                                <Image src='./icona-megafono.png' size={'tiny'} />
                                 <Card.Header>
                                     Need Help
                                 </Card.Header>
