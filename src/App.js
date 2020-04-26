@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import HeaderBePresilient from './Components/HeaderBePresilient';
 import MenuBePresilient from './Components/MenuBePresilient';
+import DumbComponent from './Components/DumbComponent';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
 
@@ -26,6 +27,11 @@ class App extends Component {
             <Grid.Column>
               <HeaderBePresilient />
               <MenuBePresilient user={user} path={webappdir} />
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+              <Route exact={true} path={"/"} component={DumbComponent} />
             </Grid.Column>
           </Grid.Row>
         </Grid>
