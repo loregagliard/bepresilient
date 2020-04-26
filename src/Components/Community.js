@@ -1,13 +1,43 @@
 import React, {Component} from 'react';
-import {Grid, Button, Segment, Item, Card, Header, Message, Container} from 'semantic-ui-react';
+import {Grid, Button, Segment, Item, Image, Header, Message, Container, Modal, Divider, Card} from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.css';
+
+const imagesProfiles = [
+    {source: './1 copia.png'},
+    {source: './2 copia.png'},
+    {source: './3 copia.png'},
+    {source: './4 copia.png'},
+    {source: './5 copia.png'},
+    {source: './6 copia.png'},
+    {source: './7 copia.png'},
+    {source: './8 copia.png'},
+    {source: './9 copia.png'},
+    {source: './10 copia.png'},
+    {source: './11 copia.png'},
+    {source: './12 copia.png'},
+    {source: './13 copia.png'},
+    {source: './14 copia.png'},
+]
+
 
 export default class Community extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            modalOpen: false,
+            modalImage: '',
+            modalKey: ''
+        }
+    }
+
+
     renderMessages() {
         return (
-            <Segment.Group horizontal>
-                <Segment>
+            <Segment>
+                <Header textAlign={'center'}>EMERGENCY CALLS</Header>
+            <Segment.Group horizontal raised style={{'background-color':'lightskyblue!important'}}>
+                <Segment style={{'background-color':'lightskyblue!important'}}>
                     <Message key={'covid'} floating compact color={'red'} size={'huge'} >
                         <Message.Header>Covid-19</Message.Header>
                         <p>Help us to deliver food and medicines to people in need!</p>
@@ -16,7 +46,7 @@ export default class Community extends Component {
                         </Button>
                     </Message>
                 </Segment>
-                <Segment>
+                <Segment style={{'background-color':'lightskyblue!important'}}>
                     <Message key={'blood'} floating compact color={'red'} size={'huge'} >
                         <Message.Header>Blood Donation</Message.Header>
                         <p>Blood donation is need due to earthquake emergency!</p>
@@ -26,9 +56,9 @@ export default class Community extends Component {
                     </Message>
                 </Segment>
             </Segment.Group>
+            </Segment>
         )
     }
-
 
 
     render() {
@@ -39,10 +69,11 @@ export default class Community extends Component {
                 <Grid.Row column={2} padded={"true"}>
                     <Grid.Column width={7} floated={'left'}>
                         <Segment>
-                            <Header>Round Tables</Header>
+                            <Header textAlign={'center'}>ROUND TABLES</Header>
+                            <Divider />
                             <Item.Group divided>
                                 <Item>
-                                    <Item.Image size='small' src='/1-removebg-preview.png' />
+                                    <Item.Image size='small' src='/1-withbg-preview.png' />
                                     <Item.Content verticalAlign='middle'>
                                         <Item.Header as='a'>How to use IPD</Item.Header>
                                         <Item.Meta>
@@ -76,43 +107,23 @@ export default class Community extends Component {
                     </Grid.Column>
                     <Grid.Column width={9} floated={'right'}>
                         <Segment>
-                            <Card.Group itemsPerRow={3}>
-                            <Card style={{'border': 'solid thick lightskyblue!important'}}>
-                                <Card.Content>
-                                    <Card.Header>Matthew Harris</Card.Header>
-                                    <Card.Meta>Co-Worker</Card.Meta>
-                                    <Card.Description>
-                                        Matthew is a pianist living in Nashville.
-                                    </Card.Description>
-                                </Card.Content>
-                            </Card>
-                            <Card style={{'border': 'solid thick lightskyblue!important'}}>
-                                <Card.Content>
-                                    <Card.Header content='Jake Smith' />
-                                    <Card.Meta content='Musicians' />
-                                    <Card.Description content='Jake is a drummer living in New York.' />
-                                </Card.Content>
-                                </Card>
-
-                            <Card style={{'border': 'solid thick lightskyblue!important'}}>
-                                <Card.Content
-                                    header='Elliot Baker'
-                                    meta='Friend'
-                                    description='Elliot is a music producer living in Chicago.'
-                                />
-                            </Card>
-
-                            <Card
-                                style={{'border': 'solid thick lightskyblue!important'}}
-                                header='Jenny Hess'
-                                meta='Friend'
-                                description='Jenny is a student studying Media Management at the New School'
-                            />
+                            <Header textAlign={'center'}>COMMUNITY</Header>
+                            <Divider />
+                            <Card.Group itemsPerRow={2}>
+                                {imagesProfiles.map(each => {
+                                    return(
+                                        <Card link raised key={each.source + 'card'}>
+                                            <Image as={'a'} size={'medium'} key={each.source} src={each.source} />
+                                        </Card>)
+                                })}
                             </Card.Group>
                         </Segment>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
+            <Modal>
+                
+            </Modal>
             </Container>
         )
     }

@@ -100,7 +100,7 @@ export default class MenuBePresilient extends Component {
                 <Menu.Item>
                     <Button
                         inverted
-                        secondary
+                        primary
                         onClick={this.handleClickOnLogIn}
                     >
                         Log In
