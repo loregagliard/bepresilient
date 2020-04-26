@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import {Grid, Card, Container, Image, Button} from 'semantic-ui-react'
-import 'semantic-ui-css/semantic.min.css'
+import React, {Component} from 'react';
+import {Grid, Card, Container, Image, Button} from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.css';
 
 export default class GiveHelp extends Component {
 

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Grid, Container, Header, Segment} from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.css'
 
 export default class About extends Component {
     render() {

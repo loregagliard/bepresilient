@@ -40,3 +40,11 @@
 .ui.cards a.card, .ui.link.card, .ui.link.cards .card, a.ui.card {
   border-radius: 0;
 }
+
+.ui.cards > .card {
+  border-radius: 0;
+}
+
+.ui.segment {
+  border-radius: 0;
+}

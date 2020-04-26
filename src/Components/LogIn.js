@@ -1,5 +1,6 @@
-import React, {Component} from 'react'
-import { Button, Form, Grid, Header, Image, Message, Segment } from 'semantic-ui-react'
+import React, {Component} from 'react';
+import { Button, Form, Grid, Header, Image, Message, Segment } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.css';
 
 
 export default class LogIn extends Component {
@@ -10,7 +11,7 @@ export default class LogIn extends Component {
     }
 
     handleSubmitLogIn = () => {
-        window.location.href = window.location.origin + '/homepage'
+        window.location.href = window.location.origin + '/community'
     }
 
 
@@ -24,18 +25,17 @@ export default class LogIn extends Component {
                     </Header>
                     <Form size='large' raised>
                         <Segment raised>
-                        <Form.Input fluid icon='user' iconPosition='left' placeholder='E-mail address' />
-                        <Form.Input
-                            fluid
-                            icon='lock'
-                            iconPosition='left'
-                            placeholder='Password'
-                            type='password'
-                        />
-
-                        <Button inverted primary fluid size='large' onClick={this.handleSubmitLogIn}>
-                            Login
-                        </Button>
+                            <Form.Input fluid icon='user' iconPosition='left' placeholder='E-mail address' />
+                            <Form.Input
+                                fluid
+                                icon='lock'
+                                iconPosition='left'
+                                placeholder='Password'
+                                type='password'
+                            />
+                            <Button inverted primary fluid size='large' onClick={this.handleSubmitLogIn}>
+                                Login
+                            </Button>
                         </Segment>
                     </Form>
                     <Message raised>

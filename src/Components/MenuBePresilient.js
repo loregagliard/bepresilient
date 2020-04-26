@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import {Grid, Menu, Dropdown, Button, Image} from "semantic-ui-react"
-import 'semantic-ui-css/semantic.min.css'
+import {Grid, Menu, Dropdown, Button, Image} from "semantic-ui-react";
+import 'semantic-ui-css/semantic.css';
 
 
 const languageOptions = [
@@ -77,7 +77,7 @@ export default class MenuBePresilient extends Component {
                     </Button>
                 </Menu.Item>
                 <Menu.Item>
-                    <Button inverted color={'white'} onClick={this.handleClickOnAbout}>
+                    <Button inverted onClick={this.handleClickOnAbout}>
                         Who We Are
                     </Button>
                 </Menu.Item>
@@ -94,7 +94,7 @@ export default class MenuBePresilient extends Component {
                     options={languageOptions}
                     search
                     text='Select Language'
-                    style={{'color': '#e4e4e4', 'background-color':'#e71c64'}}
+                    style={{'color': '#e4e4e4', 'backgroundColor':'#e71c64'}}
                 />
                 </Menu.Item>
                 <Menu.Item>
