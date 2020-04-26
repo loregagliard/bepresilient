@@ -2,14 +2,14 @@ import React, {Component} from 'react'
 import {Grid, Card, Image, Message, Statistic} from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.css'
 
-export default class DumbComponent extends Component {
+export default class GiveOrNeed extends Component {
     render() {
         return(
             <Grid>
                 <Grid.Row columns={1}>
                     <Grid.Column>
                         <Card.Group centered doubling>
-                            <Card key={'givehelp'} link raised>
+                            <Card key={'givehelp'} link raised href={'/'}>
                                 <Image src='./icona-sos.png' fluid />
                                 <Card.Content textAlign={'center'}>
                                     <Statistic label='' value='Give Help' text />
