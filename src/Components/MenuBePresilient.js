@@ -38,10 +38,11 @@ export default class MenuBePresilient extends Component {
         }
         this.handleClickOnMenuItem = this.handleClickOnMenuItem.bind(this);
         this.handleClickOnAssociation = this.handleClickOnAssociation.bind(this);
+        this.handleClickOnAbout = this.handleClickOnAbout.bind(this);
     }
 
     handleClickOnAssociation = () => {
-        window.location.href = window.location.pathname + '/association'
+        window.location.href = this.state.path + '/association'
     }
 
     handleClickOnMenuItem = (e, {name}) => {
@@ -49,7 +50,7 @@ export default class MenuBePresilient extends Component {
         let {path} = this.state;
         switch (name) {
             case "associations": 
-                window.location.href = window.location.href + "/home";
+                window.location.href = this.state.path + "home";
                 break;
             default:
                 break;
@@ -57,8 +58,14 @@ export default class MenuBePresilient extends Component {
     }
     
     handleClickOnLogIn = () => {
-        window.location.href = window.location.href + "login";
+        window.location.href = this.state.path + "login";
     }
+
+
+    handleClickOnAbout = () => {
+        window.location.href = this.state.path + "about";
+    }
+
 
     getMenu(user) {
         let {path} = this.state;
@@ -70,12 +77,12 @@ export default class MenuBePresilient extends Component {
                     </Button>
                 </Menu.Item>
                 <Menu.Item>
-                    <Button inverted color={'white'}>
+                    <Button inverted color={'white'} onClick={this.handleClickOnAbout}>
                         Who We Are
                     </Button>
                 </Menu.Item>
                 <Menu.Item position='right'>
-                    <Image src={'./logo bianco.png'} size={'small'} />
+                    <Image href='/' src={'./logo bianco.png'} size={'small'} />
                 </Menu.Item>
                 <Menu.Item position='right'>
                 <Dropdown

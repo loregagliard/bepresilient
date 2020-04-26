@@ -5,6 +5,8 @@ import MenuBePresilient from './Components/MenuBePresilient';
 import DumbComponent from './Components/DumbComponent';
 import GiveOrNeed from './Components/GiveOrNeed';
 import LogIn from './Components/LogIn';
+import About from './Components/About';
+import NeedHelp from './Components/NeedHelp';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css'
@@ -22,7 +24,7 @@ class App extends Component {
 
   render() {
     let {user} = this.state;
-    let webappdir = "/";
+    let webappdir = '';
     return(
       <Router basename={webappdir}>
         <Grid padded>
@@ -42,9 +44,11 @@ class App extends Component {
           <Grid.Row padded>
             <Grid.Column padded>
               <Route exact={true} path={"/"} component={GiveOrNeed} />
+              <Route exact={true} path={"/needhelp"} component={NeedHelp} />
               <Route exact={true} path={"/login"} component={LogIn}/>
               <Route exact={true} path={"/home"} component={DumbComponent} />
               <Route exact={true} path={"/volunteers"} component={DumbComponent} />
+              <Route exact={true} path={"/about"} component={About} />
             </Grid.Column>
           </Grid.Row>
         </Grid>
