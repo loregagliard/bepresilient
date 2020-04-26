@@ -10,7 +10,7 @@ export default class HeaderBePresilient extends Component {
                         <Image 
                             src={'/bepresilient-logo.png'}
                             as={'a'}
-                            size={'medium'}
+                            width={'200px'}
                             href={'/'}
                             target={'_blank'}
                         />

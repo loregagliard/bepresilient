@@ -5,6 +5,7 @@ import MenuBePresilient from './Components/MenuBePresilient';
 import DumbComponent from './Components/DumbComponent';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css'
 
 class App extends Component {
   
@@ -25,13 +26,15 @@ class App extends Component {
         <Grid>
           <Grid.Row columns={1}>
             <Grid.Column>
-              <HeaderBePresilient />
               <MenuBePresilient user={user} path={webappdir} />
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
             <Grid.Column>
-              <Route exact={true} path={"/"} component={DumbComponent} />
+              {user.role===""}
+              <Route exact={true} path={"home"} component={DumbComponent} />
+              <Route exact={true} path={"volunteers"} component={DumbComponent} />
+              <Route exact={true} path={""} component={DumbComponent} />
             </Grid.Column>
           </Grid.Row>
         </Grid>

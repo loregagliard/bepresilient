@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Grid, Menu} from "semantic-ui-react"
+import {Grid, Menu, Button} from "semantic-ui-react"
 
 export default class MenuBePresilient extends Component {
 
@@ -31,7 +31,7 @@ export default class MenuBePresilient extends Component {
     getMenu(user) {
         let {path} = this.state;
         return (
-            <Menu pointing compact fluid>
+            <Menu fluid  size='large' fixed='top' style={{'backgroundColor':'#e71c64'}}>
                 <Menu.Item
                     name={'Home'}
                     link={true}
@@ -44,9 +44,17 @@ export default class MenuBePresilient extends Component {
                     name={'Volunteers'}
                     link={true}
                     onClick={this.handleClickOnMenuItem}
-                    active={window.location.pathname === path + "/volunteers"}
+                    active={window.location.pathname === path + "volunteers"}
                 >
                     Volunteers
+                </Menu.Item>
+                <Menu.Item position='right'>
+                  <Button as='a' inverted secondary>
+                    Log in
+                  </Button>
+                  <Button as='a' inverted primary style={{ marginLeft: '0.5em' }}>
+                    Sign Up
+                  </Button>
                 </Menu.Item>
             </Menu>
         )
