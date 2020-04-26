@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](RackMultipart20200426-4-n54ibk_html_31ed0257b45a8753.png)
 
-## Available Scripts
+**INSPIRATION**
 
-In the project directory, you can run:
+We are all helping if we know how do it. Emergency times show the world the bright side of people and their will to help the less fortunate. The issue is, most of them simply don&#39;t know how to effectively address their efforts to the recipients, working along with other willful volunteers, institutions and PA, this way dissipating energies, time and (not only financial) resources. As proud blood donors and volunteers, for example, we lived a critical situation with blood donation: during emergencies everyone would be pleased to give their blood for the will to help people hit by CoVid-19 pandemy, as well as earthquakes or other natural disasters, not being aware about timing, logistics and healthcare issues required by becoming a blood donor. Then we wondered: what if anyone willing to be helpful could easily find out how to commit in the most effective and necessary way, meeting other people and gaining knowledge and expertise all along the way?
 
-### `yarn start`
+Here comes our BePresilient dream we are about to turn into reality: more than an app, a step above a community, the &quot;most social&quot; of social networks. A platform with eyes wide open on the burning spots all around the world, matching the actual needs of who&#39;s hit with soon-to-be volunteers&#39; expectations and desire to make a difference.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## HOW YOU CAN CONTRIBUTE
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+BePresilient connects aspiring volunteers with open challenges around the world and the people they face (charities, institutions, PAs, funds, etc.); meets expectations and needs, connecting people by sharing their vision of a better world and providing social and collaborative growth.
 
-### `yarn test`
+Through an open source system, each volunteer operator in Europe can integrate and adapt the platform according to their needs, creating a solid and reliable ecosystem, composed of the main actors who take steps to save us during emergencies.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A simple interface, which allows those who want to help and those who need a hand to meet thanks to technology in quick and clear ways, eliminating any impersonality that technology is likely to bring in these very empathic situations. The real response to emergencies is people!
 
-### `yarn build`
+## Built With
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](RackMultipart20200426-4-n54ibk_html_255d33b1643c63b0.jpg)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Example Projects (???)**
