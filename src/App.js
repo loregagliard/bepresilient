@@ -7,6 +7,7 @@ import GiveOrNeed from './Components/GiveOrNeed';
 import LogIn from './Components/LogIn';
 import About from './Components/About';
 import NeedHelp from './Components/NeedHelp';
+import GiveHelp from './Components/GiveHelp';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css'
@@ -49,6 +50,7 @@ class App extends Component {
               <Route exact={true} path={"/home"} component={DumbComponent} />
               <Route exact={true} path={"/volunteers"} component={DumbComponent} />
               <Route exact={true} path={"/about"} component={About} />
+              <Route exact={true} path={"/givehelp"} component={GiveHelp} />
             </Grid.Column>
           </Grid.Row>
         </Grid>

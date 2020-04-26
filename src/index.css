@@ -6,8 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e4e4e4; /* For browsers that do not support gradients */
-  background-image: url('bepresilient-logo.png')!important;
-  background-size: auto;
+  background-image: url('./bepresilient-logo.png')!important;
+  background-size: cover;
 }
 
 code {
