@@ -15,7 +15,7 @@ export default class NeedHelp extends Component {
                                     link 
                                     raised 
                                     as={'a'} 
-                                    href={window.location.href + '/socialcare'} 
+                                    href={window.location.origin + '/login'} 
                                 >
                                     <Image src={'./solo casa.png'}/>
                                     <Card.Content>
@@ -29,7 +29,7 @@ export default class NeedHelp extends Component {
                                     link 
                                     raised 
                                     as={'a'} 
-                                    href={window.location.href + '/healthcare'} 
+                                    href={window.location.origin + '/login'} 
                                 >
                                     <Image src={'./assistenza sanitaria.png'} />
                                     <Card.Content>
@@ -43,7 +43,7 @@ export default class NeedHelp extends Component {
                                     link 
                                     raised 
                                     as={'a'} 
-                                    href={window.location.href + '/listeningskills'} 
+                                    href={window.location.origin + '/login'} 
                                     src={'./gps-call.png'}
                                 >
                                     <Image src={'./gps-call.png'} />
@@ -58,7 +58,7 @@ export default class NeedHelp extends Component {
                                     link 
                                     raised
                                     as={'a'} 
-                                    href={window.location.href + '/economicsupport'} 
+                                    href={window.location.origin + '/login'} 
                                 >
                                     <Image src={'./assistenza economica.png'} />
                                     <Card.Content>
