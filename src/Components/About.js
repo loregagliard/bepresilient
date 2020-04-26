@@ -5,7 +5,11 @@ import 'semantic-ui-css/semantic.css'
 export default class About extends Component {
     render() {
         return(
-            <Grid>
+            <Grid padded>
+                <br />
+                <br />
+                <br />
+                <br />
                 <Container textAlign={'center'}>         
                     <Header>INSPIRATION</Header>
                     <Segment>
