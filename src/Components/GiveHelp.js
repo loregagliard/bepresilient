@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Grid, Card, Image} from 'semantic-ui-react'
+import {Grid, Card} from 'semantic-ui-react'
 
 
 

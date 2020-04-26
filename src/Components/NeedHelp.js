@@ -16,8 +16,8 @@ export default class NeedHelp extends Component {
                                     raised 
                                     as={'a'} 
                                     href={window.location.href + '/socialcare'} 
-                                    src={'./solo casa.png'}
                                 >
+                                    <Image src={'./solo casa.png'}/>
                                     <Card.Content>
                                         <Card.Header>
                                             Social Care
@@ -30,8 +30,8 @@ export default class NeedHelp extends Component {
                                     raised 
                                     as={'a'} 
                                     href={window.location.href + '/healthcare'} 
-                                    src={'./assistenza sanitaria.png'}
                                 >
+                                    <Image src={'./assistenza sanitaria.png'} />
                                     <Card.Content>
                                         <Card.Header>
                                             Health Care
@@ -46,6 +46,7 @@ export default class NeedHelp extends Component {
                                     href={window.location.href + '/listeningskills'} 
                                     src={'./gps-call.png'}
                                 >
+                                    <Image src={'./gps-call.png'} />
                                     <Card.Content>
                                         <Card.Header>
                                             Listening Skills
@@ -58,8 +59,8 @@ export default class NeedHelp extends Component {
                                     raised
                                     as={'a'} 
                                     href={window.location.href + '/economicsupport'} 
-                                    src={'./assistenza economica.png'}
                                 >
+                                    <Image src={'./assistenza economica.png'} />
                                     <Card.Content>
                                         <Card.Header>
                                             Economic Support

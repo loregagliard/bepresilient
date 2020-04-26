@@ -1,6 +1,6 @@
-![](https://drive.google.com/drive/folders/1zzxhMKIraSCAwwSdj5IIda00jId8M3sy)
+![](./bepresilient-logo.png)
 
-**INSPIRATION**
+## INSPIRATION
 
 We are all helping if we know how do it. Emergency times show the world the bright side of people and their will to help the less fortunate. The issue is, most of them simply don&#39;t know how to effectively address their efforts to the recipients, working along with other willful volunteers, institutions and PA, this way dissipating energies, time and (not only financial) resources. As proud blood donors and volunteers, for example, we lived a critical situation with blood donation: during emergencies everyone would be pleased to give their blood for the will to help people hit by CoVid-19 pandemy, as well as earthquakes or other natural disasters, not being aware about timing, logistics and healthcare issues required by becoming a blood donor. Then we wondered: what if anyone willing to be helpful could easily find out how to commit in the most effective and necessary way, meeting other people and gaining knowledge and expertise all along the way?
 
@@ -16,6 +16,6 @@ A simple interface, which allows those who want to help and those who need a han
 
 ## Built With
 
-![](RackMultipart20200426-4-n54ibk_html_255d33b1643c63b0.jpg)
+![](.\20140716111951!Logo_AVIS.png)
 
 **Example Projects (???)**
