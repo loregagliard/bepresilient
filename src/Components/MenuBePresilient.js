@@ -28,5 +28,39 @@ export default class MenuBePresilient extends Component {
         }
     }
 
+    getMenu(user) {
+        let {path} = this.state;
+        return (
+            <Menu pointing compact fluid>
+                <Menu.Item
+                    name={'Home'}
+                    link={true}
+                    onClick={this.handleClickOnMenuItem}
+                    active={window.location.pathname === path}
+                >
+                    Home
+                </Menu.Item>
+                <Menu.Item
+                    name={'Volunteers'}
+                    link={true}
+                    onClick={this.handleClickOnMenuItem}
+                    active={window.location.pathname === path + "/volunteers"}
+                >
+                    Volunteers
+                </Menu.Item>
+            </Menu>
+        )
+    }
+
+    render() {
+        let {user} = this.state;
+        return (<Grid>
+            <Grid.Row>
+                <Grid.Column>
+                    {this.getMenu()}
+                </Grid.Column>
+            </Grid.Row>
+        </Grid>)
+    }
 
 }
