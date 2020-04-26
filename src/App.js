@@ -4,6 +4,7 @@ import HeaderBePresilient from './Components/HeaderBePresilient';
 import MenuBePresilient from './Components/MenuBePresilient';
 import DumbComponent from './Components/DumbComponent';
 import GiveOrNeed from './Components/GiveOrNeed';
+import LogIn from './Components/LogIn';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css'
@@ -24,21 +25,26 @@ class App extends Component {
     let webappdir = "/";
     return(
       <Router basename={webappdir}>
-        <Grid>
-          <Grid.Row columns={1}>
-            <Grid.Column>
+        <Grid padded>
+          <Grid.Row columns={1} padded>
+            <Grid.Column padded>
               <MenuBePresilient user={user} path={webappdir} />
             </Grid.Column>
           </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
+        </Grid>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Grid padded>
+          <Grid.Row padded>
+            <Grid.Column padded>
               <Route exact={true} path={"/"} component={GiveOrNeed} />
-              {user.role==="admin" ? 
-                <div>
-                    <Route exact={true} path={"/home"} component={DumbComponent} />
-                    <Route exact={true} path={"/volunteers"} component={DumbComponent} />
-                </div>
-               : null}
+              <Route exact={true} path={"/login"} component={LogIn}/>
+              <Route exact={true} path={"/home"} component={DumbComponent} />
+              <Route exact={true} path={"/volunteers"} component={DumbComponent} />
             </Grid.Column>
           </Grid.Row>
         </Grid>
