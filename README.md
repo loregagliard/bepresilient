@@ -1,4 +1,4 @@
-<img src="https://github.com/loregagliard/bepresilient/blob/master/public/20140716111951!Logo_AVIS.png" width="500"> 
+<img src="https://github.com/loregagliard/bepresilient/blob/master/public/bepresilient-logo.png" width="500"> 
 
 ## INSPIRATION
 
@@ -17,6 +17,5 @@ A simple interface, which allows those who want to help and those who need a han
 ## Built With
 Firebase, React.js, Semantic-ui
 
-Thanks to
 ![avislogo](https://upload.wikimedia.org/wikipedia/it/1/16/Logo_AVIS.png "logo avis")
 
