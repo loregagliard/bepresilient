@@ -1,4 +1,4 @@
-![bepresilientlogo](https://github.com/loregagliard/bepresilient/blob/master/public/logo%20bianco.png "logo bepresilient")
+![bepresilientlogo](https://github.com/loregagliard/bepresilient/blob/master/public/20140716111951!Logo_AVIS.png | width=500)
 
 ## INSPIRATION
 
