@@ -1,4 +1,4 @@
-![bepresilientlogo](https://github.com/loregagliard/bepresilient/tree/master/public/bepresilient-logo.png)
+![bepresilientlogo](https://github.com/loregagliard/bepresilient/blob/master/public/logo%20bianco.png "logo bepresilient")
 
 ## INSPIRATION
 
@@ -18,5 +18,5 @@ A simple interface, which allows those who want to help and those who need a han
 Firebase, React.js, Semantic-ui
 
 Thanks to
-![avislogo](https://github.com/loregagliard/bepresilient/tree/master/public/20140716111951!Logo_AVIS.png)
+![avislogo](https://github.com/loregagliard/bepresilient/tree/master/public/20140716111951!Logo_AVIS.png "logo avis")
 
