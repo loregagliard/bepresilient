@@ -1,4 +1,4 @@
-![](https://github.com/loregagliard/bepresilient/tree/master/public/bepresilient-logo.png)
+![bepresilientlogo](https://github.com/loregagliard/bepresilient/tree/master/public/bepresilient-logo.png)
 
 ## INSPIRATION
 
@@ -15,7 +15,8 @@ Through an open source system, each volunteer operator in Europe can integrate a
 A simple interface, which allows those who want to help and those who need a hand to meet thanks to technology in quick and clear ways, eliminating any impersonality that technology is likely to bring in these very empathic situations. The real response to emergencies is people!
 
 ## Built With
+Firebase, React.js, Semantic-ui
 
-![](https://github.com/loregagliard/bepresilient/tree/master/public/20140716111951!Logo_AVIS.png)
+Thanks to
+![avislogo](https://github.com/loregagliard/bepresilient/tree/master/public/20140716111951!Logo_AVIS.png)
 
-**Example Projects (???)**
