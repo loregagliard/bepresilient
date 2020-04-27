@@ -18,5 +18,5 @@ A simple interface, which allows those who want to help and those who need a han
 Firebase, React.js, Semantic-ui
 
 Thanks to
-![avislogo](https://github.com/loregagliard/bepresilient/tree/master/public/20140716111951!Logo_AVIS.png "logo avis")
+![avislogo](https://upload.wikimedia.org/wikipedia/it/1/16/Logo_AVIS.png "logo avis")
 
